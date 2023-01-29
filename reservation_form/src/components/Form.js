@@ -58,7 +58,7 @@ function Form() {
                 </div>
                 <div className="field guest">
                     <label htmlFor="guests">Guests</label>
-                    <input type="number" placeholder="2" name="guests" {...register("guests")}/> 
+                    <input type="number" placeholder="2" name="guests" {...register("guests")}/>
                     <span className="error-message">{errors.guests?.message}</span>
                 </div>
                 {/*</div>*/}
